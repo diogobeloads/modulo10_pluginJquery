@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.form-campo {
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.form-campo input {
+  font-size: 16pt;
+  display: flex;
+  width: 200px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.container h1 {
+  width: 90%;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  float: left;
+  margin-top: 8px;
+  margin-left: 12px;
+  position: relative;
+  padding: 8px;
+  width: 10%;
+  background-color: yellowgreen;
+}
